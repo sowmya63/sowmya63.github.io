@@ -1,12 +1,12 @@
 let MSDhonioldinfo={ 
-    imgurl: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319900/319946.png", 
-    name : "MS Dhoni", 
-    Description: "Captain of Indian Cricket team" 
+    imgurl: "https://cdn.britannica.com/56/148856-004-2F59E2D9/APJ-2008.jpg?s=1500x700&q=85",
+    name : "A.P.J Abdul Kalam", 
+    Description: "Indian aerospace scientist and statesman who served as the 11th president of India" 
 } 
 let MSDhoninewinfo={ 
-    imgurl: "https://resize.indiatvnews.com/en/resize/newbucket/400_-/2023/04/PTI04_03_2023_000319B.jpg", 
-    name : "MS Dhoni", 
-    Description: "Csk Captain" 
+    imgurl: "https://cdn.britannica.com/56/148856-004-2F59E2D9/APJ-2008.jpg?s=1500x700&q=85",
+    name : "A.P.J Abdul Kalam",
+    Description: "Indian aerospace scientist and statesman who served as the 11th president of India" 
 } 
  
 let isMsDhoniold=true; 
@@ -16,14 +16,14 @@ let flipdata=function()
     if(isMsDhoniold==true) 
     { 
         displayobject=MSDhonioldinfo; 
-        isMsDhoniold=false; 
+        isA.P.JAbdulKalamold=false; 
     } 
     else 
     { 
-        displayobject=MSDhoninewinfo; 
-        isMsDhoniold=true; 
+        displayobject=A.P.JAbdulKalamnewinfo; 
+        isA.P.JAbdulKalamold=true; 
     } 
-    document.getElementById("cricketer").src=displayobject.imgurl; 
-    document.getElementById("cricketer_name").innerHTML=displayobject.name; 
-    document.getElementById("cricketer_dec").innerHTML=displayobject.Description; 
+    document.getElementById("scientist").src=displayobject.imgurl; 
+    document.getElementById("scientist_name").innerHTML=displayobject.name; 
+    document.getElementById("scientist_dec").innerHTML=displayobject.Description; 
 }
