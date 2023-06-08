@@ -4,7 +4,7 @@ let MSDhonioldinfo={
     Description: "Captain of Indian Cricket team" 
 } 
 let MSDhoninewinfo={ 
-    imgurl: "https://feeds.abplive.com/onecms/images/uploaded-images/2021/11/20/cf26040f28b78037fe29203c3a4db278_original.jpg?impolicy=abp_cdn&imwidth=650"
+    imgurl: "https://feeds.abplive.com/onecms/images/uploaded-images/2021/11/20/cf26040f28b78037fe29203c3a4db278_original.jpg?impolicy=abp_cdn&imwidth=650",
     name : "MS Dhoni", 
     Description: "Csk Captain" 
 } 
